@@ -1,0 +1,13 @@
+UTN – FR Mar del Plata - Técnico Universitario en Programación
+Programación II y Laboratorio II
+
+Trabajo Práctico N° 4.1: TDA Lista Enlazada 
+
+Codifique las funciones básicas correspondientes al TDA Lista Enlazada y los Subprogramas que figuran en el apunte teórico compartido en el Campus. 
+Luego, codifique las siguientes funciones: 
+Hacer un programa que lea de un archivo los datos y los cargue en una lista. 
+Hacer un programa que lea de un archivo los datos y los inserte en una lista en forma ordenada. 
+Hacer una función que retorne un 1 (uno) o 0 (cero) si existe un determinado elemento en una lista dada. 
+Hacer una función que intercale en orden los elementos de dos listas ordenadas generando una nueva lista. Se deben redireccionar los punteros, no se deben crear nuevos nodos. 
+Codificar el TDA Pila con las funciones necesarias, implementada con una lista enlazada (Similar al ejercicio hecho con arreglo). 
+Invertir los elementos de una lista redireccionando solamente los punteros. 
