@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1570208825 source:c:\users\usuario\desktop\trabajo practico 4\tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Listas.c"
+	<string.h>
+
+1570125730 c:\users\usuario\desktop\trabajo practico 4\tp4\listas.c
+	"Listas.h"
+
+1570124363 c:\users\usuario\desktop\trabajo practico 4\tp4\listas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
