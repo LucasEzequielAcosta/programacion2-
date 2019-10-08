@@ -1,0 +1,10 @@
+UTN – FR Mar del Plata - Técnico Universitario en Programación
+Programación II y Laboratorio II
+
+Trabajo Práctico N° 4.2: TDA Lista Doblemente Enlazada 
+
+Codifique las funciones básicas correspondientes al TDA Lista Doblemente Enlazada que figuran en el apunte teórico compartido en el Campus. 
+Luego, codifique las siguientes funciones: 
+
+1. Modificar la función borrarNodo() de listas simples y transformarla para el caso de una lista doblemente vinculada. 
+2. Crear una función recursiva que determine si una lista doblemente vinculada es capicúa. (Después de ver recursividad) 
