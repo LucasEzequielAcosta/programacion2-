@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1570558857 source:c:\users\usuario\desktop\trabajo practico 5\tp5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDoble.c"
+	<string.h>
+
+1570558676 c:\users\usuario\desktop\trabajo practico 5\tp5\listadoble.c
+	"ListaDoble.h"
+
+1570558639 c:\users\usuario\desktop\trabajo practico 5\tp5\listadoble.h
+
