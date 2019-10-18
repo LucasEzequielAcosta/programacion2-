@@ -1,3 +1,6 @@
+Programación 2 – Laboratorio 2
+Práctica Primer Parcial 2019
+
 Se tiene un sistema de gestión de venta de automoviles. Para ello se usan las siguientes estructuras: 
 
 typedef struct { 
@@ -9,8 +12,6 @@ typedef struct {
    int valor; 
    char marca[10]; 
 } automovil; 
-
-
 
 Realizar las siguientes funciones: 
 
