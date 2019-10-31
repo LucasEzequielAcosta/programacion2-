@@ -1,0 +1,33 @@
+UTN – FR Mar del Plata - Técnico Universitario en Programación
+Programación II y Laboratorio II
+Trabajo Práctico N° 5: TDA Árbol Binario
+
+A- Codifique las funciones básicas correspondientes al TDA Árbol Binario (de números enteros) y que figuran en el apunte teórico compartido en el Campus. 
+Utilizando dicho TDA, hacer una función que sume el contenido de un árbol binario de números enteros. Considerar que la suma del árbol será igual a la
+suma del dato de la Raíz más la suma del subárbol izquierdo más la suma del subárbol derecho.
+
+B - Sea la siguiente estructura 
+
+typedef struct { 
+     persona dato;
+     struct nodoArbol * izq; 
+     struct nodoArbol * der;
+} nodoArbol;
+
+typedef struct {
+     int legajo;
+     char nombre[20]; 
+     int edad; 
+} persona;
+
+Codifique las funciones básicas correspondientes al TDA Árbol Binario (de personas), y luego codifique las siguientes funciones:
+
+Hacer una función que permita ingresar nuevos nodos manteniendo el árbol ordenado (por legajo). 
+Hacer tres funciones, una función que recorra el árbol y muestre su contenido en inOrder, otra en posOrder y otra en preOrder. Modularizar.
+Hacer una función que copie el contenido del árbol en una lista vinculada. 
+Hacer una función que busque un nodo por legajo y lo retorne. 
+Hacer una función que busque un nodo por nombre. Cuidado, el árbol está ordenado por legajo.
+Hacer una función que cuente la altura que tiene el árbol.
+Hacer una función que cuente la cantidad de nodos del árbol. 
+Hacer una función que cuente la cantidad de hojas del árbol. 
+Hacer una función que borre un nodo de un árbol.
