@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1572545167 source:c:\users\usuario\desktop\trabajo practico 7\tp7b\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arbol.c"
+	"Lista.c"
+	"Persona.c"
+
+1572285474 c:\users\usuario\desktop\trabajo practico 7\tp7b\arbol.c
+	"Arbol.h"
+
+1572025900 c:\users\usuario\desktop\trabajo practico 7\tp7b\arbol.h
+	"Persona.h"
+
+1572026357 c:\users\usuario\desktop\trabajo practico 7\tp7b\persona.h
+
+1572026357 c:\users\usuario\desktop\trabajo practico 7\tp7b\lista.c
+	"Lista.h"
+
+1572026357 c:\users\usuario\desktop\trabajo practico 7\tp7b\lista.h
+	"Persona.h"
+
+1572025900 c:\users\usuario\desktop\trabajo practico 7\tp7b\persona.c
+

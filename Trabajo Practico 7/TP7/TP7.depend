@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1571434666 source:c:\users\usuario\desktop\trabajo practico 7\tp7\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arbol.c"
+
+1571434653 c:\users\usuario\desktop\trabajo practico 7\tp7\arbol.c
+	"Arbol.h"
+
+1571434231 c:\users\usuario\desktop\trabajo practico 7\tp7\arbol.h
+
