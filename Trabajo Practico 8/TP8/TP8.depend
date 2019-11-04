@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1572883041 source:c:\users\usuario\desktop\trabajo practico 8\tp8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.c"
+	"Alumno.c"
+	"ADL.c"
+
+1572637433 c:\users\usuario\desktop\trabajo practico 8\tp8\lista.h
+	"Alumno.h"
+
+1572884723 c:\users\usuario\desktop\trabajo practico 8\tp8\lista.c
+	"Lista.h"
+	"Alumno.h"
+	<string.h>
+
+1572637433 c:\users\usuario\desktop\trabajo practico 8\tp8\alumno.h
+
+1572637654 c:\users\usuario\desktop\trabajo practico 8\tp8\alumno.c
+	"Alumno.h"
+
+1572880300 c:\users\usuario\desktop\trabajo practico 8\tp8\adl.h
+	"Lista.h"
+
+1572884780 c:\users\usuario\desktop\trabajo practico 8\tp8\adl.c
+	"ADL.h"
+	"Lista.h"
+	<string.h>
+
