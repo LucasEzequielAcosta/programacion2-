@@ -1,0 +1,41 @@
+UTN – FR Mar del Plata - Técnico Universitario en Programación
+Programación II y Laboratorio II
+
+Trabajo Práctico N° 6.1: Estructuras compuestas - Arreglo de listas simples
+Sean las siguientes estructuras: 
+
+typedef struct { 
+   int nota; 
+   int legajo;
+   char nombreApe[30]; 
+   char materia[30]; 
+   int idMateria;
+} registroArchivo; 
+
+typedef struct { 
+   int nota; 
+   int legajo;
+   char nombreApe[30];
+} notaAlumno;
+
+typedef struct _nodo { 
+   notaAlumno dato; 
+   struct _nodo *siguiente; 
+} nodo;
+
+typedef struct { 
+    int idMateria;
+    char materia[30]; 
+    nodo * listaDeNotas; 
+} celda; 
+
+Se pide desarrollar un sistema que administre y gestione las notas de la carrera TUP, a partir de un archivo que fue cargado con los datos “mezclados”. 
+A fin de realizar esto, codifique las funciones necesarias para administrar el TDA Lista y el Arreglo de Listas (similar a las que las que figuran en el prezi y las que considere necesarias). 
+Luego, cargue el archivo utilizando la estructura “registroArchivo” y muéstrelo por pantalla para asegurar la carga de datos. 
+Utilizando la información en el archivo, realice las siguientes funciones:
+
+… pasarDeArchivoToADL(…) ---> esta función recorrerá el archivo y pasará la información al arreglo de listas (utilizando las funciones necesarias que usted ya codificó). 
+
+… pasarDeADLToArchivoDeAprobados (…) ---> esta función pasará del arreglo de listas a un nuevo archivo las notas mayores o iguales a 6.
+
+Desarrolle un main para probar todo el funcionamiento de sistema.
