@@ -1,0 +1,46 @@
+UTN – FR Mar del Plata - Técnico Universitario en Programación
+Programación II y Laboratorio II
+
+Trabajo Práctico N° 6.2: Estructuras compuestas - Arreglo de árboles 
+
+Sean las siguientes estructuras: 
+
+typedef struct { 
+   char animal[30];
+   int cant;
+   int habitat;
+   int idEspecie;               
+   char especie[20];	 
+} registroArchivo; 
+
+typedef struct { 
+      char nombreAnimal [30];
+	int cantidad;
+	int habitat;
+// 1 - selva, 2- savana, 3-bosque, 4-mar
+} animal;
+
+typedef struct
+{
+   animal dato;	 
+   struct nodoArbol * izq;
+   struct nodoArbol * der;
+} nodoArbol;
+
+typedef struct
+{
+   int idEspecie;
+   char especie [20];
+ 	 // "Mamiferos", "Aves"
+       // "Reptiles", "Peces"
+   nodoArbol * arbolDeAnimales;  
+} celdaEspecie; 
+
+Se pide desarrollar un sistema que administre y gestione animales que viven en un zoológico, a partir del archivo que figura en el campus debajo de este enunciado (“animales.dat”), el cual fue cargado con los datos “mezclados”. 
+A fin de realizar esto, codifique las funciones necesarias para administrar el TDA Árbol y el Arreglo de Árboles (la inserción en el árbol se hace evaluando el campo “cantidad”).
+Utilizando la información en el archivo, realice las siguientes funciones:
+
+… pasarDeArchivoToADA(…) ---> esta función recorrerá el archivo y pasará la información al arreglo de árboles (utilizando las funciones necesarias que usted ya codificó). 
+
+… pasarDeADAToArchivosAnimales (…) ---> esta función pasará del arreglo de árboles a un nuevo archivo, uno por cada especie, todos los animales que existen en cada árbol.
+Desarrolle un main para probar todo el funcionamiento de sistema.
