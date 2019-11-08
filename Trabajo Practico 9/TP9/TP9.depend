@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1573153252 source:c:\users\usuario\desktop\trabajo practico 9\tp9\registroarchivo.c
+	"RegistroArchivo.h"
+
+1572976775 c:\users\usuario\desktop\trabajo practico 9\tp9\registroarchivo.h
+	<stdio.h>
+	<stdlib.h>
+
+1573156987 source:c:\users\usuario\desktop\trabajo practico 9\tp9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"RegistroArchivo.h"
+	"Animal.h"
+	"Arbol.h"
+	"ADA.c"
+
+1573148345 c:\users\usuario\desktop\trabajo practico 9\tp9\animal.h
+	<stdio.h>
+	<stdlib.h>
+
+1573148345 c:\users\usuario\desktop\trabajo practico 9\tp9\arbol.h
+	<stdio.h>
+	<stdlib.h>
+	"Animal.h"
+
+1573156875 c:\users\usuario\desktop\trabajo practico 9\tp9\ada.c
+	"ADA.h"
+	"Arbol.c"
+	"Animal.c"
+	<string.h>
+
+1572977344 c:\users\usuario\desktop\trabajo practico 9\tp9\ada.h
+	<stdio.h>
+	<stdlib.h>
+	"Arbol.h"
+
+1573156986 c:\users\usuario\desktop\trabajo practico 9\tp9\arbol.c
+	"Arbol.h"
+	<string.h>
+
+1572984891 c:\users\usuario\desktop\trabajo practico 9\tp9\animal.c
+	"Animal.h"
+
